@@ -9,7 +9,7 @@
 <body>
 	<center>  
         <h1>添加新用户</h1>  
-        <s:form action="user_add" namespace="/user" method="post">  
+        <s:form action="add" namespace="/" method="post">  
             <s:textfield label="用户名" name="user.username"></s:textfield>  
             <s:password label="密码" name="user.password"></s:password>  
             <s:submit value="提交"></s:submit>  

@@ -7,6 +7,6 @@
 <title>Insert title here</title>
 </head>
 <body>
-	<p>22</p>
+	<p>添加成功</p>
 </body>
 </html>

@@ -23,11 +23,13 @@ public class UserAction extends ActionSupport{
 	private User user;
 	
 	
+	public String addU(){
+		return "userAdd";
+	}
 	public String add(){
 		userService.add(user);
-		return "addUser";
+		return "success";
 	}
-
 
 	public User getUser() {
 		return user;

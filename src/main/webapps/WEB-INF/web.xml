@@ -6,17 +6,17 @@
     <welcome-file-list>  
         <welcome-file>index.jsp</welcome-file>  
     </welcome-file-list>  
-  
+
     <!-- 加载spring的配置文件 -->  
     <listener>  
         <listener-class>org.springframework.web.context.ContextLoaderListener</listener-class>  
     </listener>  
+    
     <!-- 配置spring配置文件加载的位置 -->  
     <context-param>  
         <param-name>contextConfigLocation</param-name>  
-        <param-value>classpath:beans.xml</param-value>  
-    </context-param>  
-  
+        <param-value>WEB-INF/classes/beans.xml,classpath:beans.xml</param-value>  
+    </context-param> 
   
     <!-- 配置struts2 -->  
     <filter>  
